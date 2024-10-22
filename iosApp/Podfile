@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'iosApp' do
+    use_frameworks!
+    platform :ios, '15.4'
+    pod 'composeApp', :path => '../composeApp'
+    pod 'GoogleMaps', '9.0.0'
+    pod 'Google-Maps-iOS-Utils', '6.0.0'
+end
